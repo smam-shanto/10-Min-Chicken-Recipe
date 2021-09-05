@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="1dp"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/text_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/greekchickenskewers1">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="300dp"
+            android:src="@drawable/frenchonionbreadedbakedchicken">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/airfryerapricotglazedchickenbreasts2">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="910dp"
+            android:src="@drawable/sheetpansweetandsourchicken">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="1200dp"
+            android:src="@drawable/broiledpaprikaandlemonpepperchickenbreasts2">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="1515dp"
+            android:src="@drawable/anneschickenchilaquilesrojas2">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="1830dp"
+            android:src="@drawable/polloallabirrafortwo2">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2120dp"
+            android:src="@drawable/makeaheadfreezerchickenparmesan2">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2430dp"
+            android:src="@drawable/juicyroastedchicken">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2730dp"
+            android:src="@drawable/bakedchickenschnitzel">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="3030dp"
+            android:src="@drawable/aussiechicken2">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="3350dp"
+            android:src="@drawable/perfectchicken2">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Greek Chicken Skewers"
+            android:layout_marginTop="282dp"
+            android:layout_marginLeft="117dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="French Onion-Breaded Baked Chicken"
+            android:layout_marginTop="553dp"
+            android:layout_marginLeft="60dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Air Fryer Apricot-Glazed Chicken Breasts"
+            android:layout_marginTop="860dp"
+            android:layout_marginLeft="80dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sheet Pan Sweet and Sour Chicken"
+            android:layout_marginTop="1170dp"
+            android:layout_marginLeft="80dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Broiled Paprika and Lemon-Pepper Chicken Breasts"
+            android:layout_marginTop="1450dp"
+            android:layout_marginLeft="46dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Broiled Paprika and Lemon-Pepper Chicken Breasts"
+            android:layout_marginTop="1450dp"
+            android:layout_marginLeft="46dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anne's Chicken Chilaquiles Rojas"
+            android:layout_marginTop="1780dp"
+            android:layout_marginLeft="80dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pollo alla Birra for Two"
+            android:layout_marginTop="2080dp"
+            android:layout_marginLeft="111dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make-Ahead Freezer Chicken Parmesan"
+            android:layout_marginTop="2390dp"
+            android:layout_marginLeft="76dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Juicy Roasted Chicken"
+            android:layout_marginTop="2690dp"
+            android:layout_marginLeft="126dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baked Chicken Schnitzel"
+            android:layout_marginTop="2990dp"
+            android:layout_marginLeft="126dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aussie Chicken"
+            android:layout_marginTop="3300dp"
+            android:layout_marginLeft="156dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Winter Chicken Bake"
+            android:layout_marginTop="3620dp"
+            android:layout_marginLeft="136dp"></TextView>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

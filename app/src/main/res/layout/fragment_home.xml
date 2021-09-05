@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="1dp"
+    tools:context=".ui.home.HomeFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Greek Chicken Skewers"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="French Onion-Breaded Baked Chicken"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="65dp"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:text="Air Fryer Apricot-Glazed Chicken Breasts"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="130dp"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Sheet Pan Sweet and Sour Chicken"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="195dp"/>
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Broiled Paprika and Lemon-Pepper Chicken Breasts"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="260dp"/>
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Anne's Chicken Chilaquiles Rojas"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="325dp"/>
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Pollo alla Birra for Two"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="390dp"/>
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Make-Ahead Freezer Chicken Parmesan"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="455dp"/>
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Juicy Roasted Chicken"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="520dp"/>
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Baked Chicken Schnitzel"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="585dp"/>
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Aussie Chicken"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="650dp"/>
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Winter Chicken Bake"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/ic_chicken_leg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="715dp"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

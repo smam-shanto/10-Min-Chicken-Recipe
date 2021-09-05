@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androfood.tenminchicken">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="10 min Chicken Recipe"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NeonApplication">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6535813852259729~9111624915"/>
+
+        <activity
+            android:name="com.androfood.tenminchicken.SplashActivity"
+            android:label="10 min Easy Chicken Recipe"
+            android:theme="@style/Theme.NeonApplication.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.androfood.tenminchicken.MainActivity"
+            android:label="10min Chicken Recipe"
+            android:theme="@style/Theme.NeonApplication.NoActionBar" />
+        <activity android:name="com.androfood.tenminchicken.name1Activity"
+            android:label="Greek Chicken Skewers"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"/>
+        <activity android:name="com.androfood.tenminchicken.name2Activity"
+            android:label="French Onion-Breaded Baked Chicken"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"/>
+        <activity android:name="com.androfood.tenminchicken.name3Activity"
+            android:label="Air Fryer Apricot-Glazed Chicken Breasts"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"/>
+        <activity android:name="com.androfood.tenminchicken.name4Activity"
+            android:label="Sheet Pan Sweet and Sour Chicken"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"/>
+        <activity android:name="com.androfood.tenminchicken.name5Activity"
+            android:label="Broiled Paprika and Lemon-Pepper Chicken Breasts"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"/>
+        <activity android:name="com.androfood.tenminchicken.name6Activity"
+            android:label="Anne&apos;s Chicken Chilaquiles Rojas"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"/>
+        <activity android:name="com.androfood.tenminchicken.name7Activity"
+            android:label="Pollo alla Birra for Two"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"/>
+        <activity android:name="com.androfood.tenminchicken.name8Activity"
+            android:label="Make-Ahead Freezer Chicken Parmesan"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"/>
+        <activity android:name="com.androfood.tenminchicken.name9Activity"
+            android:label="Juicy Roasted Chicken"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"/>
+        <activity android:name="com.androfood.tenminchicken.name10Activity"
+            android:label="Baked Chicken Schnitzel"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"/>
+        <activity android:name="com.androfood.tenminchicken.name11Activity"
+            android:label="Aussie Chicken"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"/>
+        <activity android:name="com.androfood.tenminchicken.name12Activity"
+            android:label="Winter Chicken Bake"
+            android:parentActivityName="com.androfood.tenminchicken.MainActivity"></activity>
+    </application>
+
+</manifest>
